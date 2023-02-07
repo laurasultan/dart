@@ -24,3 +24,25 @@ void repeteFrase({int? i, int? y, String? text}) {   //parâmetros opcionais
   print(y ?? 1000);
   print(text ?? "Veio nada");
 }
+
+----------------------------------------------------------------------------------------------------------
+
+void main() {
+  Cliente cli1 = Cliente("Osmar Contato", "000.000.000-00");
+  print(cli1);
+}
+
+class Cliente {
+  //Atributos
+  late String nome;
+  late String cpf;
+  
+  //Métodos
+  Cliente(this.nome, this.cpf);   //construtor
+  
+  @override
+  String toString(){
+    return "Nome: $nome\n"+
+           "CPF: $cpf";
+  }
+}
