@@ -11,11 +11,11 @@ void repeteFrase(int i, int y, String text) {   //parâmetros
 
 ----------------------------------------------------------------------------------------------------------
   
-  void main() {
+void main() {
   repeteFrase(text: "Olá", i: 0, y:10);
 }
 
-void repeteFrase({int? i, int? y, String? text}) {   //parâmetros
+void repeteFrase({int? i, int? y, String? text}) {   //parâmetros opcionais
   //for(i; i < y; i++){   //+=2
   //variável (atribuição), expressão booleana, incremento
     //print(text);         
