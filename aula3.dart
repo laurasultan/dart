@@ -30,6 +30,8 @@ void repeteFrase({int? i, int? y, String? text}) {   //parâmetros opcionais
 void main() {
   Cliente cli1 = Cliente("Osmar Contato", "000.000.000-00");
   print(cli1);
+  Cliente cli2 = Cliente("Fabíola Mendes", "111.111.111-11");
+  print(cli2);
 }
 
 class Cliente {
