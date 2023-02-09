@@ -138,3 +138,72 @@ class Cliente {
     return "Bom dia $_nome.";
   }
 }
+
+---------------------------------------- LIST MAP -------------------------------------------
+  
+void main() {
+  List<String> names = [
+    "Rogério",
+    "Flavio",
+    "Givanildo",
+    "Marília"
+  ];
+  
+  Map<int, String> countries = {
+    10 : "Inglaterra",
+    11 : "Brasil",
+    12 : "Estados Unidos",
+    13 : "Espanha"
+  };
+  
+  print(names[2]);
+  print(countries.values);      //keys, values
+  
+}
+
+--------------------------------------------------------------------------------------------
+  
+void main() {
+  List<String> names = [
+    "Rogério",
+    "Flavio",
+    "Givanildo",
+    "Marília"
+  ];
+  
+  /*
+  Map<int, String> countries = {
+    10 : "Inglaterra",
+    11 : "Brasil",
+    12 : "Estados Unidos",
+    13 : "Espanha"
+  };
+  */
+  
+  names.forEach((val)=>print("-> $val"));     //(val)
+  
+  //print(names.);      //[1].elementAt(1)
+  //print(countries.values);      //keys, values
+  
+}
+
+----------------------------- FILTRO --------------------------------------------
+  
+void main() {
+  List<String> names = [
+    "Rogério",
+    "Flavio",
+    "Givanildo",
+    "Marília"
+  ];
+  
+  List filtrados = [];
+  
+  names.forEach((value) {
+    String valueMaiusculo = value.toUpperCase();
+    (valueMaiusculo.contains("G")) ? filtrados.add(value) : print(value);
+  });
+  
+  print("Listra filtrada: $filtrados");
+  
+}
