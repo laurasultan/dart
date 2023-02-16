@@ -23,4 +23,6 @@ Instruções no Visual Studio Code
 
 → Ctrl + Shift + P > flutter > Flutter New Project <br>
 → Ou "Locate SDK" > flutter > bin <br>
-→ Application > Criar pasta (Documentos) + nome > Selecionar > Renomear projeto
+→ Application > Criar pasta (Documentos) + nome > Selecionar > Renomear projeto <br>
+<br>
+→ Terminal > New Terminal > flutter run
