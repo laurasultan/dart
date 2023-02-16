@@ -1,12 +1,12 @@
 # Dart
-Desenvolvimento de Aplicativos II
+<b>Desenvolvimento de Aplicativos II</b>
 
 * Framework Mobile: Flutter — <a href="https://docs.flutter.dev/get-started/install/windows"> Windows SDK </a>
 * Linguagem: Dart — <a href="https://dartpad.dev/"> Website </a> 
 * Material complementar — <a href="https://www.paulocagol.dev.br/2021/04/00004-introducao-linguagem-dart/"> Introdução ao Dart </a>
 * Extensão VSCode — Flutter (Dart Code)
 
-Instruções Pós-Download
+<b>Instruções Pós-Download</b>
 
 → Ctrl + L >  cmd <br>
 → dir > cd bin > dir > flutter --version > Ctrl + C > s <br>
@@ -19,7 +19,7 @@ Instruções Pós-Download
 <br>
 → Windows + R > cmd > flutter --version
 
-Instruções no Visual Studio Code
+<b>Instruções no Visual Studio Code</b>
 
 → Ctrl + Shift + P > flutter > Flutter New Project <br>
 → Ou "Locate SDK" > flutter > bin <br>
