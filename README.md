@@ -6,6 +6,7 @@
 * Material complementar — <a href="https://www.paulocagol.dev.br/2021/04/00004-introducao-linguagem-dart/"> Introdução ao Dart </a>
 * Extensão VSCode — Flutter (Dart Code)
 * <a href="https://www.youtube.com/watch?v=xWV71C2kp38"> Tutorial </a> para o primeiro app [EN] & <a href="https://github.com/afitz0/exploration_planner"> repositório </a>
+* <a href="https://www.vysor.io/download/"> Vysor </a> Download
 
 <b>Instruções Pós-Download</b>
 
