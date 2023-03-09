@@ -30,6 +30,7 @@ class _MyFormState extends State<MyForm> {
     );
 
     print(poke);
+    
     Navigator.push(
       context,
       MaterialPageRoute(builder: (context) => Receba(pokemon: poke))
